@@ -65,7 +65,7 @@ const Home = () => {
             <td>{carro.modelo}</td>
             <td>{carro.cor}</td>
             <td>{carro.ano}</td>
-            <td><Link to={`/carros/${index}`} ><button>Editar</button></Link><button onClick={() => handleDelete(index)}>Deletar</button></td>
+            <td><button onClick={() => handleDelete(index)}>Deletar</button><Link to={`/carros/${index}`} ><button>Editar</button></Link></td>
           </tr>
         ))
         }
