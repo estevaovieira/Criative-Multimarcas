@@ -1,0 +1,13 @@
+.banner {
+    padding: 0 auto;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 5px 10px #00000083;
+    background-color: #FFF;
+}
+
+.banner img {
+    padding: 10px 0;
+    height: 120px;
+}

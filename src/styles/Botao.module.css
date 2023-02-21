@@ -1,0 +1,22 @@
+.botao {
+    height: 40px;
+    width: auto;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(86, 92, 94, 0.747);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
+
+.botao:hover {
+    cursor: pointer;
+}
+
+.botao:active {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
