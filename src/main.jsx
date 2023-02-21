@@ -16,15 +16,15 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: "https://criative-multimarcas.vercel.app/",
+        path: "/carros",
         element: <Home />
       },
       {
-        path: "https://criative-multimarcas.vercel.app/novoCarro",
+        path: "/novoCarro",
         element: <AddCarro />
       },
       {
-        path: "https://criative-multimarcas.vercel.app/carros/:id",
+        path: "/carros/:id",
         element: <AddCarro />
       }
     ], 

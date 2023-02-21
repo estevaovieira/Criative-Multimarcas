@@ -44,7 +44,7 @@ const AddCarro = () => {
 
     localStorage.setItem('carro', JSON.stringify(data))
 
-    navigate('https://criative-multimarcas.vercel.app/')
+    navigate('/carros')
   };
 
   return (
