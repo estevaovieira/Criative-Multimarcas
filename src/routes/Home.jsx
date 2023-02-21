@@ -27,7 +27,7 @@ const Home = () => {
 
   return (
       <div className={style.menu}>
-        <Link to='/carros/novoCarro'><Botao texto="Novo Carro" /></Link>
+        <Link to='https://criative-multimarcas.vercel.app/novoCarro'><Botao texto="Novo Carro" /></Link>
 
         <input 
           type="text" 
@@ -65,7 +65,7 @@ const Home = () => {
             <td>{carro.modelo}</td>
             <td>{carro.cor}</td>
             <td>{carro.ano}</td>
-            <td><Link to={`/carros/${index}`} ><button>Editar</button></Link><button onClick={() => handleDelete(index)}>Deletar</button></td>
+            <td><Link to={`https://criative-multimarcas.vercel.app/carros/${index}`} ><button>Editar</button></Link><button onClick={() => handleDelete(index)}>Deletar</button></td>
           </tr>
         ))
         }
